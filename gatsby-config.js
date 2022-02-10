@@ -19,10 +19,10 @@ module.exports = {
     {
       resolve: 'gatsby-source-sanity',
       options: {
-        projectId: `apm5jcevo`,
-        dataset: `blog`,
-        token: process.env.SANITY_TOKEN,
-        graphqlTag: 'default',
+        projectId: `6t1xmo2k`,
+        dataset: `production`,
+        // token: process.env.SANITY_TOKEN,
+        // graphqlTag: 'default',
       },
     },
     {
@@ -52,7 +52,7 @@ module.exports = {
         ],
       },
     },
-    
+    `gatsby-plugin-image`,
     // `gatsby-transformer-sharp`,
     // `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
