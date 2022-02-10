@@ -1,1 +1,0 @@
-module.exports = require("/Users/74thstreetmacair/Documents/dev/gatsby-stuff/sushi-style/src/utils/typography.js")

@@ -1,8 +1,12 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
-    title: 'Candace Collins Resume',
-    author: 'Aman Mittal',
-    description: 'A Gatsby.js Starter based on Ceevee by Styleshout',
+    title: 'Sushi-Style',
+    author: 'Aaron Harris',
+    description: 'A Gatsby.js BLOG',
   },
   pathPrefix: '/',
   plugins: [
@@ -10,6 +14,15 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: `apm5jcevo`,
+        dataset: `blog`,
+        token: process.env.SANITY_TOKEN,
+        graphqlTag: 'default',
       },
     },
     {
@@ -39,6 +52,7 @@ module.exports = {
         ],
       },
     },
+    
     // `gatsby-transformer-sharp`,
     // `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
