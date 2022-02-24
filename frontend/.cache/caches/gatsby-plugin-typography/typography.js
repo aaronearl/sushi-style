@@ -1,0 +1,1 @@
+module.exports = require("/Users/philiphowley/Documents/dev/my-stuff/sushi-style/frontend/src/utils/typography.js")
