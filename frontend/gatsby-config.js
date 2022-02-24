@@ -21,8 +21,9 @@ module.exports = {
       options: {
         projectId: `6t1xmo2k`,
         dataset: `production`,
-        // token: process.env.SANITY_TOKEN,
-        // graphqlTag: 'default',
+        token: process.env.SANITY_TOKEN,
+        watchMode: true,
+        overlayDrafts: true
       },
     },
     {
