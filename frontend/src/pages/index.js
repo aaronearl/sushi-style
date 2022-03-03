@@ -1,22 +1,23 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react'
+import Link from 'gatsby-link'
 
-import "../assets/css/main.css";
-
-import Header from "../components/Header";
-import About from "../components/About";
-import Resume from "../components/Resume";
-import Testimonials from "../components/Testimonials";
-import Footer from "../components/Footer";
+import '../assets/css/main.css'
+import Navigation from '../components/Navigation'
+import Header from '../components/Header'
+import About from '../components/About'
+import Resume from '../components/Resume'
+import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <div>
-    <Header />
+    <Navigation />
+    {/* <Header /> */}
     <About />
     <Resume />
     <Testimonials />
     <Footer />
   </div>
-);
+)
 
-export default IndexPage;
+export default IndexPage

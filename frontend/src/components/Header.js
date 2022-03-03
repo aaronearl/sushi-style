@@ -1,15 +1,13 @@
-import React from "react";
+import React from 'react'
 
-import Navigation from "./Navigation";
-import Banner from "./Banner";
-import ScrollDown from "./ScrollDown";
+import Banner from './Banner'
+import ScrollDown from './ScrollDown'
 
 const Header = () => (
-  <header id="home">
-    <Navigation />
+  <header id='home'>
     <Banner />
     <ScrollDown />
   </header>
-);
+)
 
-export default Header;
+export default Header
