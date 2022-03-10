@@ -1,5 +1,5 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react'
+import Slider from 'react-slick'
 
 const settings = {
   // dots: true,
@@ -9,15 +9,15 @@ const settings = {
   slideToShow: 1,
   slideToScroll: 1,
   swipeToSlide: true
-};
+}
 
 const Testimonials = () => (
-  <section id="testimonials">
-    <div className="text-container">
-      <div className="row">
-        <div className="two columns header-col" />
-        {/* <div className="ten columns">
-          <h1>Client Testimonials</h1>
+  <section id='testimonials'>
+    <div className='text-container'>
+      <div className='row'>
+        <div className='two columns header-col' />
+        <div className='ten columns'>
+          <h1>Blog</h1>
           <ul>
             <Slider {...settings}>
               <li>
@@ -47,10 +47,10 @@ const Testimonials = () => (
               </li>
             </Slider>
           </ul>
-        </div> */}
-        {/* <div className="ten columns flex-container">
-          <div className="flexslider">
-            <ul className="slides">
+        </div>
+        <div className='ten columns flex-container'>
+          <div className='flexslider'>
+            <ul className='slides'>
               <li>
                 <blockquote>
                   <p>
@@ -79,10 +79,10 @@ const Testimonials = () => (
               </li>
             </ul>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   </section>
-);
+)
 
-export default Testimonials;
+export default Testimonials
