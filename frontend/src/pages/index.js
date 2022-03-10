@@ -12,10 +12,10 @@ import Footer from '../components/Footer'
 const IndexPage = () => (
   <div>
     <Navigation />
-    {/* <Header /> */}
+    <Header />
     <About />
-    <Resume />
-    <Testimonials />
+    {/* <Resume />
+    <Testimonials /> */}
     <Footer />
   </div>
 )

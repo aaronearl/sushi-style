@@ -10,9 +10,12 @@ const About = () => (
         <img className="profile-pic" src={profilePic} alt="" />
       </div>
       <div className="nine columns main-col">
-        <h2>About Me</h2>
+        <h2>Sushi Style</h2>
         <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        Sushi Style
+
+A rank and realistic depiction of the facts, devoid of politeness, a truthfully yet blunt point of view; that is the Blog "Sushi Style."   Discussing the obvious to the unknown with a flair for the provocative explanation of the facts.  
+
         </p>
         <div className="row">
           <div className="columns contact-details">
