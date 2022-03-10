@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 
 const BlogPage = ({ data }) => {
@@ -16,7 +16,9 @@ const BlogPage = ({ data }) => {
       <ul>
         {posts.map((post, index) => (
           <li key={index}>
-            {post.title} - {post.author}
+            <Link to={post.slug}>
+              {post.title} - {post.author}
+            </Link>
           </li>
         ))}
       </ul>
