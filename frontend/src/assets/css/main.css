@@ -141,7 +141,7 @@ body {
    background: #fff;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
-   font-size: 15px;
+   font-size: 25px;
    line-height: 30px;
 	color: #838C95;
 
@@ -842,7 +842,7 @@ header {
   border-right: 20px;
   border-radius: 40px;
   height: 9px;
-  min-height: 600px;
+  min-height: 500px;
   width: 100%;
   background: #161415 url(../images/header-background.gif) no-repeat top center;
   background-size: cover !important;
@@ -1040,8 +1040,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   border-radius: 100%;
 }
 #about .contact-details {

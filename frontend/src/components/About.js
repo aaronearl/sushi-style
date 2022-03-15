@@ -12,8 +12,6 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>Sushi Style</h2>
         <p>
-        Sushi Style
-
 A rank and realistic depiction of the facts, devoid of politeness, a truthfully yet blunt point of view; that is the Blog "Sushi Style."   Discussing the obvious to the unknown with a flair for the provocative explanation of the facts.  
 
         </p>
