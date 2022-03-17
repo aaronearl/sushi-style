@@ -26,7 +26,7 @@ class Navigation extends React.Component {
               About
             </a>
           </li>
-          <li className={isCurrent('#resume', pathname)}>
+          {/* <li className={isCurrent('#resume', pathname)}>
             <a className='smoothscroll' href='#resume'>
               Resume
             </a>
@@ -35,7 +35,7 @@ class Navigation extends React.Component {
             <a className='smoothscroll' href='#portfolio'>
               Work
             </a>
-          </li>
+          </li> */}
           <li>
             <Link to='/blog'>Blog</Link>
           </li>

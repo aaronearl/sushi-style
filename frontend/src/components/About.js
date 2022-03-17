@@ -27,7 +27,7 @@ A rank and realistic depiction of the facts, devoid of politeness, a truthfully 
               <br />
               {/* <span>(323)816-6163</span> */}
               <br />
-              <span>74thstreet@gmail.com</span>
+              {/* <span>74thstreet@gmail.com</span> */}
             </p>
           </div>
           {/* <div className="columns download">
