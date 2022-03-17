@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
+import '../assets/css/main.css'
 
 const BlogPage = ({ data }) => {
   // console.log(data.allSanityPost)
@@ -13,6 +14,8 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
       <h1>Blog</h1>
+      <br>
+      </br>
       <ul>
         {posts.map((post, index) => (
           <li key={index}>
@@ -38,7 +41,13 @@ export const query = graphql`
         }
         author {
           name
+          image {
+            _key
+            _rawAsset(resolveReferences: {maxDepth: 10})
+            _rawCrop
+          }
         }
+        _rawAuthor
       }
     }
   }
